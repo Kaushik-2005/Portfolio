@@ -184,5 +184,3 @@ document.addEventListener('DOMContentLoaded', () => {
     // Run once on load
     revealElements();
 });
-
-window.addEventListener('scroll', revealElements); 

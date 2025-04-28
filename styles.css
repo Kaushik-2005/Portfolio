@@ -413,4 +413,63 @@ footer {
         align-items: center;
         text-align: center;
     }
+}
+
+.light-theme header {
+    color: var(--text-color);
+}
+
+.light-theme .logo {
+    color: var(--text-color);
+}
+
+.light-theme nav a {
+    color: var(--text-color);
+}
+
+.light-theme #theme-toggle {
+    color: var(--text-color);
+}
+
+.dark-theme header {
+    color: #ffffff;
+}
+
+.dark-theme .logo {
+    color: #ffffff;
+}
+
+.dark-theme nav a {
+    color: #ffffff;
+}
+
+.dark-theme #theme-toggle {
+    color: #ffffff;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    cursor: pointer;
+    opacity: 0.85;
+    z-index: 1000;
+    transition: opacity 0.3s, background 0.3s;
+}
+
+#back-to-top:hover {
+    opacity: 1;
+    background: var(--secondary-color);
+}
+
+#back-to-top:active {
+    opacity: 0.7;
 } 

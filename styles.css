@@ -343,12 +343,43 @@ h2 {
     opacity: 0.7;
 }
 
-.more-link {
+.more-project-link {
     display: block;
     text-align: center;
-    color: var(--primary-color);
+    color: #b8b8b8;
     text-decoration: none;
     font-weight: 500;
+}
+
+.more-project-link :hover{
+    color: var(--text-color);
+}
+
+.medium-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.medium-link svg path {
+    transition: fill 0.3s ease;
+}
+
+.medium {
+    margin-top: 5px;
+    color: #b8b8b8;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.medium-link:hover svg path {
+    fill: var(--text-color);
+}
+
+.medium-link:hover .medium {
+    color: var(--text-color);
 }
 
 footer {
